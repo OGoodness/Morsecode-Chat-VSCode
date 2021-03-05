@@ -12,5 +12,5 @@ Chat with your friends over Morse Code WHILE you Code!  (WebVersion: http://mors
 
 
 ## Demo
-![Morse Demo](media/Morsecode-Demo.gif)
+![Morse Demo](https://i.imgur.com/EnhcMx5.gif)
 
