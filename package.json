@@ -5,10 +5,10 @@
   "author": "Noah Fields",
   "icon": "media/morsecode.png",
   "description": "MorseCode Chat for VSCode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OGoodness/morsecode"
+    "url": "https://github.com/OGoodness/Morsecode-Chat-VSCode"
   },
   "engines": {
     "vscode": "^1.51.0"
