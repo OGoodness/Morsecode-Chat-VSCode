@@ -75,8 +75,8 @@
 </style>
 
 <h4 class="display-name, full">
-  <span class='list'>{morse}</span>
   <span class='list'>{Morse.decode(morse)}</span>
+  <span class='list'>{morse}</span>
 </h4>
 <button on:mousedown={ startSignal } on:mouseup={timeDifference} class="send-message-button"><img alt="visual" class="morse-button" /></button>
 

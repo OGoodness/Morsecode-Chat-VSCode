@@ -99,14 +99,6 @@
   form {
     padding: 0px var(--container-paddding);
   }
-  .display-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin-top: -5px;
-    cursor: pointer;
-  }
   .full { width: 100%; }
   .list { border: 1px solid #333; margin: 2px; min-width: 47% ; display: inline-block;}
   .list:nth-child(4n+3), .list:nth-child(4n+4) { background: #FFAAAA; width: 47%; }
@@ -138,8 +130,7 @@
     <div class="msg-container">
         <MessageGroup
           userInfo={{ id: user.id, flair: user.flair, displayName: username }}
-          mg={messageGroups}
-          {myId}/>
+          mg={messageGroups}/>
     </div>
     <MorseButton  saveMessages={saveMessages}></MorseButton>
   </div>

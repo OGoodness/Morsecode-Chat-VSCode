@@ -13,6 +13,14 @@
   "engines": {
     "vscode": "^1.51.0"
   },
+  "keywords": [
+    "morse",
+    "morsecode",
+    "chat",
+    "message",
+    "communicate",
+    "fun"
+  ],
   "categories": [
     "Other"
   ],

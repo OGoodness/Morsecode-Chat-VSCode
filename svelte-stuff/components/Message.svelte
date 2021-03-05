@@ -3,7 +3,6 @@
 
   export let encodedMessage: string
   export let username: string
-  export let tooltip = false
   let plainMessage = encodedMessage
   let shouldProcess = true
   
