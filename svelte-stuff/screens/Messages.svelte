@@ -9,8 +9,6 @@
   import LoadingSpinner from "../ui/LoadingSpinner.svelte";
   import MessageGroup from "../components/MessageGroup.svelte";
   const channels = ['1', '2', '3']
-  export let user: NonNullable<MatchState["user"]>;
-  export let myId: string;
   let loading = true;
   let choosingChannel = false
   let choosingUsername = false
@@ -129,7 +127,7 @@
     } }>
     <div class="msg-container">
         <MessageGroup
-          userInfo={{ id: user.id, flair: user.flair, displayName: username }}
+          {username}
           mg={messageGroups}/>
     </div>
     <MorseButton  saveMessages={saveMessages}></MorseButton>

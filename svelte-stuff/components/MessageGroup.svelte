@@ -3,11 +3,10 @@
   import Message from "./Message.svelte"
 
 
-  export let userInfo: { id: string; displayName: string; flair: string };
+  export let username: string;
   export let mg: MessageType[];
   
   $: messages = mg 
-  // $: isSender = lastMessage.username === myId;
 
 
 </script>
@@ -35,7 +34,7 @@
           <span><b>SYSTEM: </b> {m.message}</span>
         {:else}
         <Message  encodedMessage={m.data ?? m.message} 
-        username={userInfo.displayName}></Message>
+        {username}></Message>
         {/if}
         
       {/each}

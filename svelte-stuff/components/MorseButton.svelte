@@ -61,14 +61,6 @@
   .morse-button:active {
     content:url('../../media/morse_1.png')!important;
   }
-  .display-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin-bottom: 5px;
-    cursor: pointer;
-  }
   .full { width: 100%; }
   .list {margin: 2px; min-width: 47%; text-align: center; font-size: 150%; display: inline-block;}
   .list:nth-child(4n+3), .list:nth-child(4n+4) { background: #FFAAAA; width: 47%; }
